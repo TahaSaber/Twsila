@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/all_id"
+            android:checkable="true"
+            android:icon="@drawable/drawar_all"
+            android:title="All" />
+
+        <item
+            android:id="@+id/car_id"
+            android:icon="@drawable/drawar_car"
+            android:title="@string/car" />
+
+        <item
+            android:id="@+id/play_id"
+            android:icon="@drawable/ball32"
+            android:title="@string/Playing" />
+
+        <item
+            android:id="@+id/specialist_id"
+            android:icon="@drawable/drawar_specialist"
+            android:title="@string/specialist" />
+
+        <item
+            android:id="@+id/offers"
+            android:icon="@drawable/drawar_offers"
+            android:title="@string/disaster" />
+
+        <item
+            android:id="@+id/rent_id"
+            android:icon="@drawable/drawar_egarat"
+            android:title="@string/rent" />
+
+        <item
+            android:id="@+id/adv_id"
+            android:icon="@drawable/drawar_a3lana"
+            android:title="@string/advertisement" />
+
+    </group>
+
+
+</menu>
